@@ -1,0 +1,182 @@
+<mjml>
+  <mj-head>
+    <mj-title>HackTheEast 2026 - Hong Kong Hackathon</mj-title>
+    <mj-preview>Join 500+ developers for 48 hours of innovation in Hong Kong.</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="Helvetica, Arial, sans-serif" />
+      <mj-text font-size="16px" line-height="1.6" />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body background-color="#f4f4f4">
+    <!-- Header -->
+    <mj-section background-color="#ffffff" padding="40px 20px">
+      <mj-column>
+        <mj-image src="https://via.placeholder.com/300x100/000000/3b82f6?text=HackTheEast" alt="HackTheEast" width="300px" padding="0" />
+        <mj-text align="center" color="#666666" font-size="18px" padding-top="20px">
+          Hong Kong's Premier Developer Hackathon
+        </mj-text>
+        <mj-text align="center" color="#333333" font-size="16px" padding-top="10px">
+          February 7-8, 2026
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Main Message -->
+    <mj-section background-color="#ffffff" padding="0 20px 40px 20px">
+      <mj-column>
+        <mj-divider border-color="#e0e0e0" border-width="1px" padding="20px 0" />
+
+        <mj-text font-size="28px" font-weight="bold" color="#333333" align="center" padding-bottom="20px">
+          Build Without Limits
+        </mj-text>
+
+        <mj-text color="#666666" align="center">
+          Join 500+ developers, designers, and innovators for 48 hours of non-stop creation. Build the future of technology in Hong Kong.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Event Details -->
+    <mj-section background-color="#f8f8f8" padding="40px 20px">
+      <mj-column>
+        <mj-text font-size="20px" font-weight="bold" color="#333333" padding-bottom="25px">
+          Event Details
+        </mj-text>
+
+        <mj-text color="#666666" padding-bottom="10px">
+          <b style="color:#333333;">Location:</b> Hong Kong Science Park
+        </mj-text>
+
+        <mj-text color="#666666" padding-bottom="10px">
+          <b style="color:#333333;">Date:</b> February 7-8, 2026
+        </mj-text>
+
+        <mj-text color="#666666" padding-bottom="10px">
+          <b style="color:#333333;">Duration:</b> 48 Hours Non-Stop
+        </mj-text>
+
+        <mj-text color="#666666">
+          <b style="color:#333333;">Participants:</b> 500 Developers
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Challenge Tracks -->
+    <mj-section background-color="#ffffff" padding="40px 20px">
+      <mj-column>
+        <mj-text font-size="20px" font-weight="bold" color="#333333" padding-bottom="25px">
+          Challenge Tracks
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="0 20px">
+      <mj-column width="50%" padding="0 10px 20px 0">
+        <mj-text background-color="#f0f7ff" padding="20px" css-class="track-card">
+          <b style="color:#3b82f6; font-size:16px;">AI & Machine Learning</b><br/>
+          <span style="color:#666666; font-size:14px;">Build intelligent applications with LLMs and neural networks.</span>
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%" padding="0 0 20px 10px">
+        <mj-text background-color="#f0fffc" padding="20px" css-class="track-card">
+          <b style="color:#06b6d4; font-size:16px;">FinTech Innovation</b><br/>
+          <span style="color:#666666; font-size:14px;">Revolutionize finance with blockchain and digital banking.</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="0 20px 40px 20px">
+      <mj-column width="50%" padding="0 10px 0 0">
+        <mj-text background-color="#faf5ff" padding="20px" css-class="track-card">
+          <b style="color:#8b5cf6; font-size:16px;">Smart City Solutions</b><br/>
+          <span style="color:#666666; font-size:14px;">Create IoT and urban technology for sustainable cities.</span>
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%" padding="0 0 0 10px">
+        <mj-text background-color="#f0fdf4" padding="20px" css-class="track-card">
+          <b style="color:#10b981; font-size:16px;">Health Technology</b><br/>
+          <span style="color:#666666; font-size:14px;">Develop medical AI and digital health innovations.</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Prize Pool -->
+    <mj-section background-color="#3b82f6" padding="50px 20px">
+      <mj-column>
+        <mj-text align="center" color="#ffffff" font-size="14px" padding-bottom="10px">
+          TOTAL PRIZE POOL
+        </mj-text>
+        <mj-text align="center" color="#ffffff" font-size="42px" font-weight="bold" padding-bottom="10px">
+          HK$500,000
+        </mj-text>
+        <mj-text align="center" color="#ffffff" font-size="16px">
+          Plus incubation opportunities and mentorship
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- CTA -->
+    <mj-section background-color="#ffffff" padding="50px 20px">
+      <mj-column>
+        <mj-button
+          background-color="#333333"
+          color="#ffffff"
+          font-size="16px"
+          font-weight="bold"
+          padding="0"
+          inner-padding="15px 40px"
+          href="https://hacktheeast.com/register"
+          border-radius="5px">
+          Register Now
+        </mj-button>
+
+        <mj-text align="center" color="#999999" font-size="14px" padding-top="20px">
+          Limited to 500 participants
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Stats -->
+    <mj-section background-color="#f8f8f8" padding="40px 20px">
+      <mj-column width="33.333%">
+        <mj-text align="center" color="#3b82f6" font-size="32px" font-weight="bold" padding="0">
+          500+
+        </mj-text>
+        <mj-text align="center" color="#666666" font-size="14px" padding-top="5px">
+          Developers
+        </mj-text>
+      </mj-column>
+      <mj-column width="33.333%">
+        <mj-text align="center" color="#06b6d4" font-size="32px" font-weight="bold" padding="0">
+          48H
+        </mj-text>
+        <mj-text align="center" color="#666666" font-size="14px" padding-top="5px">
+          Non-Stop
+        </mj-text>
+      </mj-column>
+      <mj-column width="33.333%">
+        <mj-text align="center" color="#8b5cf6" font-size="32px" font-weight="bold" padding="0">
+          20+
+        </mj-text>
+        <mj-text align="center" color="#666666" font-size="14px" padding-top="5px">
+          Mentors
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section background-color="#333333" padding="30px 20px">
+      <mj-column>
+        <mj-text align="center" color="#ffffff" font-size="14px" padding-bottom="10px">
+          © 2026 HackTheEast Hong Kong
+        </mj-text>
+        <mj-text align="center" font-size="12px">
+          <a href="https://hacktheeast.com/unsubscribe" style="color:#94a3b8; text-decoration:none;">Unsubscribe</a>
+          <span style="color:#94a3b8;"> | </span>
+          <a href="https://hacktheeast.com" style="color:#94a3b8; text-decoration:none;">Visit Website</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

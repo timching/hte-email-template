@@ -1,0 +1,214 @@
+<mjml>
+  <mj-head>
+    <mj-title>HackTheEast - Hong Kong's Premier AI Hackathon</mj-title>
+    <mj-preview>48 hours. Unlimited possibilities. Join Hong Kong's elite tech community.</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="'Courier New', monospace" />
+      <mj-text color="#00ff41" font-size="14px" line-height="1.6" />
+      <mj-section background-color="#0a0e27" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap');
+
+      .glow-text {
+        text-shadow: 0 0 10px #00ff41, 0 0 20px #00ff41, 0 0 30px #00ff41;
+        animation: pulse 2s infinite;
+      }
+
+      .cyber-border {
+        border: 2px solid #00ff41;
+        box-shadow: 0 0 20px rgba(0, 255, 65, 0.5), inset 0 0 20px rgba(0, 255, 65, 0.1);
+      }
+
+      .glitch {
+        position: relative;
+        animation: glitch 3s infinite;
+      }
+
+      @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.8; }
+      }
+
+      @keyframes glitch {
+        0%, 100% { transform: translate(0); }
+        20% { transform: translate(-1px, 1px); }
+        40% { transform: translate(-1px, -1px); }
+        60% { transform: translate(1px, 1px); }
+        80% { transform: translate(1px, -1px); }
+      }
+
+      .terminal-cursor {
+        animation: blink 1s infinite;
+      }
+
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#000000">
+    <!-- ASCII Art Logo -->
+    <mj-section background-color="#0a0e27" padding="40px 10px">
+      <mj-column>
+        <mj-raw>
+          <pre style="font-family: 'Courier New', monospace; font-size: 8px; line-height: 1; color: #00ff41; text-align: center; margin: 0; white-space: pre;">
+██╗  ██╗ █████╗  ██████╗██╗  ██╗████████╗██╗  ██╗███████╗███████╗ █████╗ ███████╗████████╗
+██║  ██║██╔══██╗██╔════╝██║ ██╔╝╚══██╔══╝██║  ██║██╔════╝██╔════╝██╔══██╗██╔════╝╚══██╔══╝
+███████║███████║██║     █████╔╝    ██║   ███████║█████╗  █████╗  ███████║███████╗   ██║
+██╔══██║██╔══██║██║     ██╔═██╗    ██║   ██╔══██║██╔══╝  ██╔══╝  ██╔══██║╚════██║   ██║
+██║  ██║██║  ██║╚██████╗██║  ██╗   ██║   ██║  ██║███████╗███████╗██║  ██║███████║   ██║
+╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝╚══════╝   ╚═╝
+          </pre>
+        </mj-raw>
+      </mj-column>
+    </mj-section>
+
+    <!-- Terminal Welcome Message -->
+    <mj-section background-color="#0a0e27" padding="30px 20px" border-radius="10px">
+      <mj-column>
+        <mj-text font-family="'Courier New', monospace" font-size="12px" color="#00ff41" padding-bottom="10px">
+          > INITIATING HACKTHEEAST PROTOCOL...
+        </mj-text>
+        <mj-text font-family="'Courier New', monospace" font-size="12px" color="#00ff41" padding-bottom="10px">
+          > LOCATION: HONG KONG SAR
+        </mj-text>
+        <mj-text font-family="'Courier New', monospace" font-size="12px" color="#00ff41" padding-bottom="10px">
+          > STATUS: REGISTRATION OPEN
+        </mj-text>
+        <mj-text font-family="'Courier New', monospace" font-size="12px" color="#ff00ff" padding-bottom="20px">
+          > MESSAGE: BUILD THE FUTURE WITH AI<span class="terminal-cursor">_</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Main Message -->
+    <mj-section padding="40px 20px">
+      <mj-column>
+        <mj-text font-family="'Orbitron', sans-serif" font-size="28px" font-weight="900" color="#00ff41" align="center" padding-bottom="20px">
+          JOIN THE REVOLUTION
+        </mj-text>
+        <mj-text font-size="16px" color="#ffffff" align="center" padding-bottom="30px">
+          Developers. Designers. Innovators.<br/>
+          Hong Kong's premier AI hackathon is calling.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Event Details Box -->
+    <mj-section background-color="#1a1f3a" padding="30px" border-radius="10px">
+      <mj-column>
+        <mj-text font-family="'Orbitron', sans-serif" font-size="20px" color="#00ff41" align="center" padding-bottom="20px">
+          [[ MISSION BRIEFING ]]
+        </mj-text>
+
+        <mj-text color="#00ffff" padding-bottom="15px">
+          <strong>EVENT:</strong> HackTheEast Hong Kong<br/>
+          <strong>LOCATION:</strong> Hong Kong Science Park<br/>
+          <strong>DATE:</strong> February 7-8, 2026<br/>
+          <strong>DURATION:</strong> 48 Hours Non-Stop
+        </mj-text>
+
+        <mj-text color="#ffffff" padding-bottom="20px">
+          Join 500+ hackers, makers, and digital revolutionaries in a 48-hour marathon of innovation. Build the impossible. Break the boundaries. Become legendary.
+        </mj-text>
+
+        <mj-text font-family="'Courier New', monospace" color="#00ff41" padding="20px" background-color="#000000">
+          TRACKS:<br/>
+          • Artificial Intelligence & LLMs<br/>
+          • FinTech & Digital Banking<br/>
+          • Smart City Solutions<br/>
+          • Health Tech & BioTech<br/>
+          • Sustainability & Climate Tech<br/>
+          <br/>
+          PRIZES:<br/>
+          • HK$500,000 Prize Pool<br/>
+          • Incubation Opportunities<br/>
+          • Mentorship from Industry Leaders<br/>
+          • Fast-track to Hong Kong Tech Companies
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- CTA Button -->
+    <mj-section padding="40px 20px">
+      <mj-column>
+        <mj-button
+          background-color="#00ff41"
+          color="#000000"
+          font-family="'Orbitron', sans-serif"
+          font-size="18px"
+          font-weight="bold"
+          padding="20px 40px"
+          border-radius="0"
+          href="{{REGISTRATION_URL}}"
+          inner-padding="15px 40px">
+          [ INITIATE REGISTRATION ]
+        </mj-button>
+
+        <mj-text align="center" padding-top="20px" font-size="12px" color="#666666">
+          Limited to 500 participants. Register now.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Stats Section -->
+    <mj-section background-color="#0a0e27" padding="30px">
+      <mj-column width="33%">
+        <mj-text align="center" font-family="'Orbitron', sans-serif" font-size="32px" color="#00ff41" padding-bottom="5px">
+          500+
+        </mj-text>
+        <mj-text align="center" font-size="12px" color="#ffffff">
+          HACKERS
+        </mj-text>
+      </mj-column>
+      <mj-column width="33%">
+        <mj-text align="center" font-family="'Orbitron', sans-serif" font-size="32px" color="#00ff41" padding-bottom="5px">
+          48H
+        </mj-text>
+        <mj-text align="center" font-size="12px" color="#ffffff">
+          NON-STOP
+        </mj-text>
+      </mj-column>
+      <mj-column width="33%">
+        <mj-text align="center" font-family="'Orbitron', sans-serif" font-size="32px" color="#00ff41" padding-bottom="5px">
+          HK$500K
+        </mj-text>
+        <mj-text align="center" font-size="12px" color="#ffffff">
+          PRIZES
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Terminal Footer -->
+    <mj-section background-color="#000000" padding="30px 20px">
+      <mj-column>
+        <mj-text font-family="'Courier New', monospace" font-size="10px" color="#00ff41" align="center">
+          > EOF<br/>
+          > TRANSMISSION ENDS<br/>
+          > AWAITING YOUR RESPONSE..._
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section padding="20px">
+      <mj-column>
+        <mj-social font-size="15px" icon-size="30px" mode="horizontal" align="center">
+          <mj-social-element name="github" href="https://github.com/hacktheeast" background-color="#00ff41" color="#000000"></mj-social-element>
+          <mj-social-element name="twitter" href="https://twitter.com/hacktheeast" background-color="#00ff41" color="#000000"></mj-social-element>
+          <mj-social-element name="linkedin" href="https://linkedin.com/company/hacktheeast" background-color="#00ff41" color="#000000"></mj-social-element>
+        </mj-social>
+
+        <mj-text align="center" font-size="10px" color="#666666" padding-top="20px">
+          This message is encrypted and intended only for elite coders.<br/>
+          If you received this by mistake, congratulations - you might be one of us.<br/>
+          <a href="{{UNSUBSCRIBE_URL}}" style="color: #00ff41;">Disconnect from the Matrix</a> |
+          <a href="{{PREFERENCES_URL}}" style="color: #00ff41;">Adjust Neural Settings</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

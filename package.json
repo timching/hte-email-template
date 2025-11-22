@@ -1,0 +1,38 @@
+{
+  "name": "hacktheeast-email-campaign",
+  "version": "1.0.0",
+  "description": "Cyberpunk-themed email campaign for HackTheEast 2025 hackathon",
+  "main": "src/sendCampaign.js",
+  "scripts": {
+    "send:test": "node src/sendCampaign.js test",
+    "send:production": "node src/sendCampaign.js production",
+    "send:single": "node src/sendCampaign.js single",
+    "send:email": "node src/sendSpecific.js",
+    "compile:mjml": "mjml templates/hackathon-email.mjml -o dist/email.html",
+    "preview": "mjml templates/hackathon-email.mjml -o dist/preview.html && open dist/preview.html",
+    "preview:modern": "mjml templates/hackathon-email-modern.mjml -o dist/modern.html && open dist/modern.html",
+    "preview:black": "mjml templates/hackathon-email-black.mjml -o dist/black.html && open dist/black.html",
+    "preview:premium": "mjml templates/hackathon-email-premium.mjml -o dist/premium.html && open dist/premium.html"
+  },
+  "keywords": [
+    "hackathon",
+    "email",
+    "mailchimp",
+    "mjml",
+    "cyberpunk"
+  ],
+  "author": "HackTheEast Team",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "mjml": "^4.14.1",
+    "nodemailer": "^6.9.7"
+  },
+  "devDependencies": {
+    "eslint": "^8.54.0",
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

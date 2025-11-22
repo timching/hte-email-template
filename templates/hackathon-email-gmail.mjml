@@ -1,0 +1,210 @@
+<mjml>
+  <mj-head>
+    <mj-title>HackTheEast - Build the Future</mj-title>
+    <mj-preview>Hong Kong's premier developer hackathon. 48 hours of innovation.</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="Arial, Helvetica, sans-serif" />
+      <mj-text color="#ffffff" font-size="16px" line-height="1.6" />
+      <mj-section background-color="#0a0a0a" />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body background-color="#0a0a0a">
+    <!-- Hero Section -->
+    <mj-section background-color="#111111" padding="60px 20px">
+      <mj-column>
+        <mj-text align="center" font-size="48px" font-weight="bold" color="#3b82f6" padding="0">
+          HackTheEast
+        </mj-text>
+        <mj-text align="center" font-size="18px" color="#94a3b8" padding="12px 0 0 0">
+          Hong Kong's Premier Developer Hackathon
+        </mj-text>
+        <mj-text align="center" padding="24px 0 0 0">
+          <span style="display: inline-block; padding: 8px 20px; background-color: #1e293b; border: 1px solid #334155; border-radius: 20px; color: #cbd5e1; font-size: 14px;">February 7-8, 2026</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Main Content -->
+    <mj-section padding="50px 20px">
+      <mj-column>
+        <mj-text align="center" font-size="32px" font-weight="bold" color="#ffffff" padding-bottom="16px">
+          Build Without Limits
+        </mj-text>
+        <mj-text align="center" font-size="17px" color="#94a3b8" line-height="1.6" padding="0 20px">
+          Join 500+ developers, designers, and innovators for 48 hours of non-stop creation. Build the future of technology in Hong Kong.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Event Details Card -->
+    <mj-section padding="0 20px 40px 20px">
+      <mj-column>
+        <mj-table background-color="#1e293b" border="1px solid #334155" border-radius="12px" padding="32px">
+          <tr>
+            <td style="padding: 0 0 24px 0;">
+              <h2 style="font-family: Arial, Helvetica, sans-serif; font-size: 20px; font-weight: bold; color: #ffffff; margin: 0;">
+                Event Details
+              </h2>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 0 0 16px 0; border-bottom: 1px solid #334155;">
+              <div style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #64748b; text-transform: uppercase; margin-bottom: 4px;">Location</div>
+              <div style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #ffffff;">Hong Kong Science Park</div>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 16px 0; border-bottom: 1px solid #334155;">
+              <div style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #64748b; text-transform: uppercase; margin-bottom: 4px;">Duration</div>
+              <div style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #ffffff;">48 Hours Non-Stop</div>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 16px 0 0 0;">
+              <div style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #64748b; text-transform: uppercase; margin-bottom: 4px;">Participants</div>
+              <div style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #ffffff;">500 Developers</div>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+
+    <!-- Challenge Tracks -->
+    <mj-section padding="20px">
+      <mj-column>
+        <mj-text font-size="20px" font-weight="bold" color="#ffffff" padding="0 0 20px 0">
+          Challenge Tracks
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Track Cards -->
+    <mj-section padding="0 20px 20px 20px">
+      <mj-column width="50%">
+        <mj-table background-color="#1e293b" border="1px solid #334155" cellpadding="20">
+          <tr>
+            <td>
+              <h3 style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: bold; color: #3b82f6; margin: 0 0 8px 0;">AI & Machine Learning</h3>
+              <p style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #94a3b8; margin: 0; line-height: 1.5;">Build intelligent applications with LLMs and neural networks.</p>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-table background-color="#1e293b" border="1px solid #334155" cellpadding="20">
+          <tr>
+            <td>
+              <h3 style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: bold; color: #06b6d4; margin: 0 0 8px 0;">FinTech Innovation</h3>
+              <p style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #94a3b8; margin: 0; line-height: 1.5;">Revolutionize finance with blockchain and digital banking.</p>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0 20px 40px 20px">
+      <mj-column width="50%">
+        <mj-table background-color="#1e293b" border="1px solid #334155" cellpadding="20">
+          <tr>
+            <td>
+              <h3 style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: bold; color: #8b5cf6; margin: 0 0 8px 0;">Smart City Solutions</h3>
+              <p style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #94a3b8; margin: 0; line-height: 1.5;">Create IoT and urban technology for sustainable cities.</p>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-table background-color="#1e293b" border="1px solid #334155" cellpadding="20">
+          <tr>
+            <td>
+              <h3 style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: bold; color: #10b981; margin: 0 0 8px 0;">Health Technology</h3>
+              <p style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #94a3b8; margin: 0; line-height: 1.5;">Develop medical AI and digital health innovations.</p>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+
+    <!-- Prize Section -->
+    <mj-section padding="40px 20px">
+      <mj-column>
+        <mj-table background-color="#1e3a5f" border="2px solid #3b82f6" cellpadding="40" width="100%">
+          <tr>
+            <td align="center">
+              <p style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: #94a3b8; margin: 0; text-transform: uppercase; letter-spacing: 2px;">Total Prize Pool</p>
+              <h2 style="font-family: Arial, Helvetica, sans-serif; font-size: 48px; font-weight: bold; margin: 12px 0; color: #3b82f6;">HK$500,000</h2>
+              <p style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #cbd5e1; margin: 0;">Plus incubation opportunities and mentorship from industry leaders</p>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+
+    <!-- CTA Button -->
+    <mj-section padding="40px 20px">
+      <mj-column>
+        <mj-button
+          background-color="#3b82f6"
+          color="#ffffff"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="16px"
+          font-weight="bold"
+          padding="0"
+          inner-padding="16px 48px"
+          href="{{REGISTRATION_URL}}"
+          border-radius="8px">
+          Register Now
+        </mj-button>
+
+        <mj-text align="center" font-size="14px" color="#64748b" padding-top="16px">
+          Limited to 500 participants • Registration closes soon
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Stats -->
+    <mj-section padding="60px 20px" background-color="#111111">
+      <mj-column width="33.333%">
+        <mj-text align="center" font-size="32px" font-weight="bold" color="#3b82f6" padding="0">
+          500+
+        </mj-text>
+        <mj-text align="center" font-size="14px" color="#64748b" padding="4px 0 0 0">
+          Developers
+        </mj-text>
+      </mj-column>
+      <mj-column width="33.333%">
+        <mj-text align="center" font-size="32px" font-weight="bold" color="#06b6d4" padding="0">
+          48H
+        </mj-text>
+        <mj-text align="center" font-size="14px" color="#64748b" padding="4px 0 0 0">
+          Non-Stop
+        </mj-text>
+      </mj-column>
+      <mj-column width="33.333%">
+        <mj-text align="center" font-size="32px" font-weight="bold" color="#8b5cf6" padding="0">
+          20+
+        </mj-text>
+        <mj-text align="center" font-size="14px" color="#64748b" padding="4px 0 0 0">
+          Mentors
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section padding="40px 20px 60px 20px" background-color="#0a0a0a">
+      <mj-column>
+        <mj-text align="center" font-size="14px" color="#475569" padding="0 0 16px 0">
+          © 2026 HackTheEast. Made in Hong Kong with ❤️
+        </mj-text>
+        <mj-text align="center" font-size="12px" color="#475569">
+          <a href="{{UNSUBSCRIBE_URL}}" style="color: #3b82f6; text-decoration: none;">Unsubscribe</a>
+          <span style="margin: 0 8px;">•</span>
+          <a href="{{PREFERENCES_URL}}" style="color: #3b82f6; text-decoration: none;">Preferences</a>
+          <span style="margin: 0 8px;">•</span>
+          <a href="https://hacktheeast.com" style="color: #3b82f6; text-decoration: none;">Website</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

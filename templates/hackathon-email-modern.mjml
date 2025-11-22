@@ -1,0 +1,310 @@
+<mjml>
+  <mj-head>
+    <mj-title>HackTheEast - Build the Future</mj-title>
+    <mj-preview>Hong Kong's premier developer hackathon. 48 hours of innovation.</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" />
+      <mj-text color="#ffffff" font-size="16px" line-height="1.6" />
+      <mj-section background-color="#0a0a0a" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      /* Modern gradients inspired by fumadocs */
+      .brand-gradient {
+        background: radial-gradient(circle at 20% 80%, #3b82f6 0%, transparent 50%),
+                    radial-gradient(circle at 80% 20%, #06b6d4 0%, transparent 50%),
+                    radial-gradient(circle at 40% 40%, #8b5cf6 0%, transparent 50%),
+                    #0a0a0a;
+      }
+
+      .card-gradient {
+        background: linear-gradient(135deg, rgba(59, 130, 246, 0.05) 0%, rgba(6, 182, 212, 0.03) 100%);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+      }
+
+      /* Liquid glass button */
+      .liquid-button {
+        background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 50%, rgba(255,255,255,0.1) 100%);
+        backdrop-filter: blur(20px) saturate(180%);
+        -webkit-backdrop-filter: blur(20px) saturate(180%);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        box-shadow:
+          0 8px 32px 0 rgba(59, 130, 246, 0.2),
+          inset 0 0 0 1px rgba(255, 255, 255, 0.1),
+          inset 0 -2px 8px rgba(0, 0, 0, 0.1),
+          inset 0 2px 4px rgba(255, 255, 255, 0.1);
+      }
+
+      .subtle-border {
+        border: 1px solid rgba(255, 255, 255, 0.08);
+      }
+
+      @keyframes shimmer {
+        0% { transform: translateX(-100%); }
+        100% { transform: translateX(100%); }
+      }
+
+      .shimmer-effect {
+        position: relative;
+        overflow: hidden;
+      }
+
+      .shimmer-effect::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.1) 50%, transparent 100%);
+        animation: shimmer 2s ease-in-out infinite;
+      }
+
+      /* Modern typography */
+      .title-gradient {
+        background: linear-gradient(135deg, #ffffff 0%, #94a3b8 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+
+      .brand-text {
+        background: linear-gradient(135deg, #3b82f6 0%, #06b6d4 50%, #8b5cf6 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#0a0a0a">
+    <!-- Hero with Modern Gradient -->
+    <mj-section padding="0">
+      <mj-column>
+        <mj-raw>
+          <div style="background: radial-gradient(circle at 20% 80%, rgba(59, 130, 246, 0.15) 0%, transparent 50%), radial-gradient(circle at 80% 20%, rgba(6, 182, 212, 0.1) 0%, transparent 50%), radial-gradient(circle at 40% 40%, rgba(139, 92, 246, 0.08) 0%, transparent 50%), #0a0a0a; padding: 80px 20px 60px 20px; text-align: center;">
+
+            <!-- Logo/Brand -->
+            <h1 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 48px; font-weight: 600; margin: 0; letter-spacing: -0.02em; color: #3b82f6;">
+              HackTheEast
+            </h1>
+
+            <!-- Subtitle -->
+            <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 18px; font-weight: 400; color: rgba(255,255,255,0.7); margin: 12px 0 0 0; letter-spacing: 0.01em;">
+              Hong Kong's Premier Developer Hackathon
+            </p>
+
+            <!-- Date badge -->
+            <div style="display: inline-block; margin-top: 24px; padding: 8px 16px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 100px; backdrop-filter: blur(8px);">
+              <span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14px; color: rgba(255,255,255,0.8); font-weight: 500;">February 7-8, 2026</span>
+            </div>
+          </div>
+        </mj-raw>
+      </mj-column>
+    </mj-section>
+
+    <!-- Main Content -->
+    <mj-section padding="60px 20px 40px 20px">
+      <mj-column>
+        <mj-text align="center" font-size="32px" font-weight="500" color="#ffffff" padding-bottom="16px">
+          Build Without Limits
+        </mj-text>
+        <mj-text align="center" font-size="18px" font-weight="400" color="rgba(255,255,255,0.7)" line-height="1.6" padding="0 20px">
+          Join 500+ developers, designers, and innovators for 48 hours of non-stop creation. Build the future of technology in Hong Kong.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Event Details Card - fumadocs inspired -->
+    <mj-section padding="0 20px 40px 20px">
+      <mj-column>
+        <mj-raw>
+          <div style="background: linear-gradient(135deg, rgba(59, 130, 246, 0.08) 0%, rgba(6, 182, 212, 0.04) 100%); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 16px; padding: 32px 28px; backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);">
+
+            <h2 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 20px; font-weight: 600; color: #ffffff; margin: 0 0 24px 0;">
+              Event Details
+            </h2>
+
+            <div style="display: grid; gap: 20px;">
+              <div>
+                <dt style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 13px; font-weight: 500; color: rgba(255,255,255,0.6); margin: 0; text-transform: uppercase; letter-spacing: 0.05em;">Location</dt>
+                <dd style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; color: #ffffff; margin: 4px 0 0 0; font-weight: 400;">Hong Kong Science Park</dd>
+              </div>
+
+              <div>
+                <dt style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 13px; font-weight: 500; color: rgba(255,255,255,0.6); margin: 0; text-transform: uppercase; letter-spacing: 0.05em;">Duration</dt>
+                <dd style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; color: #ffffff; margin: 4px 0 0 0; font-weight: 400;">48 Hours Non-Stop</dd>
+              </div>
+
+              <div>
+                <dt style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 13px; font-weight: 500; color: rgba(255,255,255,0.6); margin: 0; text-transform: uppercase; letter-spacing: 0.05em;">Participants</dt>
+                <dd style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; color: #ffffff; margin: 4px 0 0 0; font-weight: 400;">500 Developers</dd>
+              </div>
+            </div>
+          </div>
+        </mj-raw>
+      </mj-column>
+    </mj-section>
+
+    <!-- Challenge Tracks -->
+    <mj-section padding="20px">
+      <mj-column>
+        <mj-text align="left" font-size="20px" font-weight="600" color="#ffffff" padding="0 0 20px 0">
+          Challenge Tracks
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Track Cards Grid -->
+    <mj-section padding="0 20px 40px 20px">
+      <mj-column width="50%">
+        <mj-raw>
+          <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; padding: 20px; margin: 0 5px 12px 0; backdrop-filter: blur(8px);">
+            <h3 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; font-weight: 600; color: #ffffff; margin: 0 0 8px 0;">AI & Machine Learning</h3>
+            <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14px; color: rgba(255,255,255,0.6); margin: 0; line-height: 1.5;">Build intelligent applications with LLMs, computer vision, and neural networks.</p>
+          </div>
+        </mj-raw>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-raw>
+          <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; padding: 20px; margin: 0 0 12px 5px; backdrop-filter: blur(8px);">
+            <h3 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; font-weight: 600; color: #ffffff; margin: 0 0 8px 0;">FinTech Innovation</h3>
+            <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14px; color: rgba(255,255,255,0.6); margin: 0; line-height: 1.5;">Revolutionize finance with blockchain, digital banking, and DeFi solutions.</p>
+          </div>
+        </mj-raw>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0 20px 40px 20px">
+      <mj-column width="50%">
+        <mj-raw>
+          <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; padding: 20px; margin: 0 5px 0 0; backdrop-filter: blur(8px);">
+            <h3 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; font-weight: 600; color: #ffffff; margin: 0 0 8px 0;">Smart City Solutions</h3>
+            <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14px; color: rgba(255,255,255,0.6); margin: 0; line-height: 1.5;">Create IoT and urban technology solutions for sustainable cities.</p>
+          </div>
+        </mj-raw>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-raw>
+          <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; padding: 20px; margin: 0 0 0 5px; backdrop-filter: blur(8px);">
+            <h3 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; font-weight: 600; color: #ffffff; margin: 0 0 8px 0;">Health Technology</h3>
+            <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14px; color: rgba(255,255,255,0.6); margin: 0; line-height: 1.5;">Develop medical AI, genomics, and digital health innovations.</p>
+          </div>
+        </mj-raw>
+      </mj-column>
+    </mj-section>
+
+    <!-- Prize Section with Modern Styling -->
+    <mj-section padding="40px 20px">
+      <mj-column>
+        <mj-raw>
+          <div style="background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(139, 92, 246, 0.08) 100%); border: 1px solid rgba(255,255,255,0.1); border-radius: 16px; padding: 40px 32px; text-align: center; backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);">
+            <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14px; font-weight: 500; color: rgba(255,255,255,0.6); margin: 0; text-transform: uppercase; letter-spacing: 0.1em;">Total Prize Pool</p>
+            <h2 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 48px; font-weight: 700; margin: 12px 0; letter-spacing: -0.02em; color: #3b82f6;">HK$500,000</h2>
+            <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; color: rgba(255,255,255,0.7); margin: 0;">Plus incubation opportunities and mentorship from industry leaders</p>
+          </div>
+        </mj-raw>
+      </mj-column>
+    </mj-section>
+
+    <!-- CTA with Liquid Glass Button -->
+    <mj-section padding="40px 20px">
+      <mj-column>
+        <mj-raw>
+          <div style="text-align: center;">
+            <a href="{{REGISTRATION_URL}}" style="display: inline-block; text-decoration: none;">
+              <div style="
+                background: linear-gradient(135deg, rgba(255,255,255,0.12) 0%, rgba(255,255,255,0.06) 50%, rgba(255,255,255,0.12) 100%);
+                backdrop-filter: blur(24px) saturate(180%);
+                -webkit-backdrop-filter: blur(24px) saturate(180%);
+                border: 1px solid rgba(255, 255, 255, 0.2);
+                border-radius: 12px;
+                padding: 16px 32px;
+                box-shadow:
+                  0 8px 32px 0 rgba(59, 130, 246, 0.15),
+                  inset 0 0 0 1px rgba(255, 255, 255, 0.1),
+                  inset 0 -2px 8px rgba(0, 0, 0, 0.1),
+                  inset 0 2px 4px rgba(255, 255, 255, 0.1);
+                position: relative;
+                overflow: hidden;
+                transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+              ">
+                <div style="
+                  position: absolute;
+                  top: 0;
+                  left: -100%;
+                  width: 100%;
+                  height: 100%;
+                  background: linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.1) 50%, transparent 100%);
+                  transition: left 0.5s ease;
+                "></div>
+                <span style="
+                  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+                  font-size: 16px;
+                  font-weight: 600;
+                  color: #ffffff;
+                  letter-spacing: 0.01em;
+                  position: relative;
+                  z-index: 1;
+                ">Register Now</span>
+              </div>
+            </a>
+          </div>
+        </mj-raw>
+
+        <mj-text align="center" font-size="14px" color="rgba(255,255,255,0.5)" padding-top="16px">
+          Limited to 500 participants • Registration closes soon
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Stats inspired by fumadocs layout -->
+    <mj-section padding="60px 20px">
+      <mj-column width="33.333%">
+        <mj-text align="center" font-size="32px" font-weight="700" color="rgba(59, 130, 246, 0.9)" padding="0">
+          500+
+        </mj-text>
+        <mj-text align="center" font-size="14px" font-weight="500" color="rgba(255,255,255,0.6)" padding="4px 0 0 0">
+          Developers
+        </mj-text>
+      </mj-column>
+      <mj-column width="33.333%">
+        <mj-text align="center" font-size="32px" font-weight="700" color="rgba(6, 182, 212, 0.9)" padding="0">
+          48H
+        </mj-text>
+        <mj-text align="center" font-size="14px" font-weight="500" color="rgba(255,255,255,0.6)" padding="4px 0 0 0">
+          Non-Stop
+        </mj-text>
+      </mj-column>
+      <mj-column width="33.333%">
+        <mj-text align="center" font-size="32px" font-weight="700" color="rgba(139, 92, 246, 0.9)" padding="0">
+          20+
+        </mj-text>
+        <mj-text align="center" font-size="14px" font-weight="500" color="rgba(255,255,255,0.6)" padding="4px 0 0 0">
+          Mentors
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section padding="40px 20px 60px 20px">
+      <mj-column>
+        <mj-raw>
+          <div style="border-top: 1px solid rgba(255,255,255,0.08); padding-top: 32px; text-align: center;">
+            <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14px; color: rgba(255,255,255,0.4); margin: 0 0 16px 0;">
+              © 2026 HackTheEast. Made in Hong Kong with ❤️
+            </p>
+            <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; color: rgba(255,255,255,0.3); margin: 0;">
+              <a href="{{UNSUBSCRIBE_URL}}" style="color: rgba(59, 130, 246, 0.8); text-decoration: none;">Unsubscribe</a>
+              <span style="margin: 0 12px; color: rgba(255,255,255,0.2);">•</span>
+              <a href="{{PREFERENCES_URL}}" style="color: rgba(59, 130, 246, 0.8); text-decoration: none;">Preferences</a>
+              <span style="margin: 0 12px; color: rgba(255,255,255,0.2);">•</span>
+              <a href="https://hacktheeast.com" style="color: rgba(59, 130, 246, 0.8); text-decoration: none;">Website</a>
+            </p>
+          </div>
+        </mj-raw>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

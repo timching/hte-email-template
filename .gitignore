@@ -1,0 +1,15 @@
+.DS_Store
+node_modules/
+dist/
+.env
+.env.local
+.env.production
+.env.mailgun
+*.log
+.DS_Store
+coverage/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

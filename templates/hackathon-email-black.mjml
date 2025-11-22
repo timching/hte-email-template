@@ -1,0 +1,267 @@
+<mjml>
+  <mj-head>
+    <mj-title>HackTheEast - Precision Engineering</mj-title>
+    <mj-preview>Where code meets craft. Hong Kong's premier hackathon.</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" />
+      <mj-text color="#ffffff" font-size="16px" line-height="1.6" />
+      <mj-section background-color="#000000" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .glass-effect {
+        background: linear-gradient(135deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.02) 100%);
+        backdrop-filter: blur(20px) saturate(180%);
+        -webkit-backdrop-filter: blur(20px) saturate(180%);
+        border: 1px solid rgba(255,255,255,0.08);
+        box-shadow:
+          0 8px 32px 0 rgba(0, 0, 0, 0.37),
+          inset 0 0 0 1px rgba(255, 255, 255, 0.05);
+      }
+
+      .liquid-gradient {
+        background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 25%, #1a1a1a 50%, #0a0a0a 75%, #000000 100%);
+        background-size: 400% 400%;
+        animation: liquidFlow 20s ease infinite;
+      }
+
+      @keyframes liquidFlow {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+      }
+
+      @keyframes shimmer {
+        0% { transform: translateX(-100%); }
+        100% { transform: translateX(100%); }
+      }
+
+      .mono-accent {
+        font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Code', monospace;
+        font-weight: 400;
+        letter-spacing: -0.02em;
+      }
+
+      h1, h2, h3 {
+        font-weight: 600;
+        letter-spacing: -0.03em;
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#000000">
+    <!-- Hero Section with Liquid Black Glass -->
+    <mj-section background-color="#000000" padding="0">
+      <mj-column>
+        <mj-raw>
+          <div style="background: linear-gradient(180deg, #000000 0%, #0a0a0a 50%, #000000 100%); padding: 60px 20px; text-align: center;">
+            <div style="background: linear-gradient(135deg, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.01) 100%); backdrop-filter: blur(30px) saturate(150%); -webkit-backdrop-filter: blur(30px) saturate(150%); border: 1px solid rgba(255,255,255,0.06); border-radius: 20px; padding: 40px; margin: 0 auto; max-width: 500px; box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5), inset 0 0 0 1px rgba(255, 255, 255, 0.05);">
+              <h1 style="font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif; font-size: 48px; font-weight: 200; background: linear-gradient(180deg, #ffffff 0%, #808080 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; margin: 0; letter-spacing: -0.02em;">
+                HackTheEast
+              </h1>
+              <p style="font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif; font-size: 14px; font-weight: 400; color: rgba(255,255,255,0.5); margin-top: 10px; letter-spacing: 0.1em; text-transform: uppercase;">
+                Hong Kong • February 2026
+              </p>
+            </div>
+          </div>
+        </mj-raw>
+      </mj-column>
+    </mj-section>
+
+    <!-- Main Message -->
+    <mj-section padding="50px 20px">
+      <mj-column>
+        <mj-text align="center" font-family="-apple-system, BlinkMacSystemFont" font-size="32px" font-weight="200" color="#ffffff" padding-bottom="15px">
+          Build Without Boundaries
+        </mj-text>
+        <mj-text align="center" font-family="-apple-system, BlinkMacSystemFont" font-size="17px" font-weight="300" line-height="1.7" color="rgba(255,255,255,0.7)" padding="0 40px">
+          48 hours. 500 builders. One weekend to reshape the future.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Event Details Glass Card -->
+    <mj-section padding="20px">
+      <mj-column>
+        <mj-raw>
+          <div style="background: rgba(255,255,255,0.03); backdrop-filter: blur(40px) brightness(1.1); -webkit-backdrop-filter: blur(40px) brightness(1.1); border: 1px solid rgba(255,255,255,0.08); border-radius: 24px; padding: 40px 30px; margin: 0 20px; box-shadow: 0 10px 40px rgba(0,0,0,0.4), inset 0 0 0 1px rgba(255,255,255,0.03);">
+
+            <div style="display: grid; gap: 28px;">
+              <div style="padding-bottom: 28px; border-bottom: 1px solid rgba(255,255,255,0.06);">
+                <p style="font-family: 'SF Mono', Monaco, monospace; font-size: 11px; font-weight: 500; color: rgba(255,255,255,0.4); margin: 0; text-transform: uppercase; letter-spacing: 0.15em;">LOCATION</p>
+                <p style="font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif; font-size: 20px; color: #ffffff; margin: 8px 0 0 0; font-weight: 300;">Hong Kong Science Park</p>
+              </div>
+
+              <div style="padding-bottom: 28px; border-bottom: 1px solid rgba(255,255,255,0.06);">
+                <p style="font-family: 'SF Mono', Monaco, monospace; font-size: 11px; font-weight: 500; color: rgba(255,255,255,0.4); margin: 0; text-transform: uppercase; letter-spacing: 0.15em;">DATE</p>
+                <p style="font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif; font-size: 20px; color: #ffffff; margin: 8px 0 0 0; font-weight: 300;">February 7-8, 2026</p>
+              </div>
+
+              <div style="padding-bottom: 28px; border-bottom: 1px solid rgba(255,255,255,0.06);">
+                <p style="font-family: 'SF Mono', Monaco, monospace; font-size: 11px; font-weight: 500; color: rgba(255,255,255,0.4); margin: 0; text-transform: uppercase; letter-spacing: 0.15em;">FORMAT</p>
+                <p style="font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif; font-size: 20px; color: #ffffff; margin: 8px 0 0 0; font-weight: 300;">48 Hours Non-Stop</p>
+              </div>
+
+              <div>
+                <p style="font-family: 'SF Mono', Monaco, monospace; font-size: 11px; font-weight: 500; color: rgba(255,255,255,0.4); margin: 0; text-transform: uppercase; letter-spacing: 0.15em;">PARTICIPANTS</p>
+                <p style="font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif; font-size: 20px; color: #ffffff; margin: 8px 0 0 0; font-weight: 300;">500 Developers</p>
+              </div>
+            </div>
+          </div>
+        </mj-raw>
+      </mj-column>
+    </mj-section>
+
+    <!-- Challenge Tracks -->
+    <mj-section padding="50px 20px 20px 20px">
+      <mj-column>
+        <mj-text align="center" font-family="-apple-system, BlinkMacSystemFont" font-size="24px" font-weight="600" color="#ffffff" padding-bottom="35px">
+          Challenge Tracks
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0 20px 30px 20px">
+      <mj-column>
+        <mj-raw>
+          <div style="display: block;">
+            <!-- AI Track -->
+            <div style="background: linear-gradient(135deg, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0.01) 100%); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border: 1px solid rgba(255,255,255,0.1); border-radius: 16px; padding: 20px; margin-bottom: 12px;">
+              <h3 style="font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif; font-size: 18px; font-weight: 500; color: #ffffff; margin: 0 0 6px 0;">Artificial Intelligence</h3>
+              <p style="font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif; font-size: 14px; color: rgba(255,255,255,0.6); margin: 0;">LLMs • Computer Vision • Neural Networks</p>
+            </div>
+
+            <!-- FinTech Track -->
+            <div style="background: linear-gradient(135deg, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0.01) 100%); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border: 1px solid rgba(255,255,255,0.1); border-radius: 16px; padding: 20px; margin-bottom: 12px;">
+              <h3 style="font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif; font-size: 18px; font-weight: 500; color: #ffffff; margin: 0 0 6px 0;">Financial Technology</h3>
+              <p style="font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif; font-size: 14px; color: rgba(255,255,255,0.6); margin: 0;">Digital Banking • Blockchain • DeFi</p>
+            </div>
+
+            <!-- Smart City Track -->
+            <div style="background: linear-gradient(135deg, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0.01) 100%); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border: 1px solid rgba(255,255,255,0.1); border-radius: 16px; padding: 20px; margin-bottom: 12px;">
+              <h3 style="font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif; font-size: 18px; font-weight: 500; color: #ffffff; margin: 0 0 6px 0;">Smart City</h3>
+              <p style="font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif; font-size: 14px; color: rgba(255,255,255,0.6); margin: 0;">IoT • Urban Tech • Sustainability</p>
+            </div>
+
+            <!-- Health Tech Track -->
+            <div style="background: linear-gradient(135deg, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0.01) 100%); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border: 1px solid rgba(255,255,255,0.1); border-radius: 16px; padding: 20px;">
+              <h3 style="font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif; font-size: 18px; font-weight: 500; color: #ffffff; margin: 0 0 6px 0;">Health Technology</h3>
+              <p style="font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif; font-size: 14px; color: rgba(255,255,255,0.6); margin: 0;">Medical AI • Genomics • Digital Health</p>
+            </div>
+          </div>
+        </mj-raw>
+      </mj-column>
+    </mj-section>
+
+    <!-- Prize Pool -->
+    <mj-section padding="40px 20px">
+      <mj-column>
+        <mj-raw>
+          <div style="background: linear-gradient(135deg, rgba(255,255,255,0.08) 0%, rgba(255,255,255,0.03) 100%); backdrop-filter: blur(30px) brightness(1.2); -webkit-backdrop-filter: blur(30px) brightness(1.2); border-radius: 20px; padding: 40px; margin: 0 20px; text-align: center; border: 1px solid rgba(255,255,255,0.1); box-shadow: 0 20px 50px rgba(0,0,0,0.4), inset 0 0 30px rgba(255,255,255,0.02);">
+            <p style="font-family: 'SF Mono', Monaco, monospace; font-size: 12px; font-weight: 500; color: rgba(255,255,255,0.5); margin: 0; text-transform: uppercase; letter-spacing: 0.2em;">TOTAL PRIZE POOL</p>
+            <h2 style="font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif; font-size: 56px; font-weight: 100; color: #ffffff; margin: 10px 0; letter-spacing: -0.02em;">HK$500,000</h2>
+            <p style="font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif; font-size: 15px; color: rgba(255,255,255,0.6); margin: 0;">Plus incubation and mentorship opportunities</p>
+          </div>
+        </mj-raw>
+      </mj-column>
+    </mj-section>
+
+    <!-- CTA with Liquid Glass Button -->
+    <mj-section padding="50px 20px">
+      <mj-column>
+        <mj-raw>
+          <div style="text-align: center;">
+            <a href="{{REGISTRATION_URL}}" style="display: inline-block; text-decoration: none;">
+              <div style="
+                background: linear-gradient(135deg, rgba(255,255,255,0.08) 0%, rgba(255,255,255,0.04) 50%, rgba(255,255,255,0.08) 100%);
+                backdrop-filter: blur(40px) saturate(180%);
+                -webkit-backdrop-filter: blur(40px) saturate(180%);
+                border: 1px solid rgba(255, 255, 255, 0.15);
+                border-radius: 100px;
+                padding: 18px 60px;
+                box-shadow:
+                  0 10px 40px 0 rgba(0, 0, 0, 0.3),
+                  inset 0 0 0 1px rgba(255, 255, 255, 0.08),
+                  inset 0 -4px 12px rgba(0, 0, 0, 0.2),
+                  inset 0 4px 8px rgba(255, 255, 255, 0.05);
+                position: relative;
+                overflow: hidden;
+                transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+              ">
+                <div style="
+                  position: absolute;
+                  top: 0;
+                  left: -100%;
+                  width: 100%;
+                  height: 100%;
+                  background: linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.1) 50%, transparent 100%);
+                  transition: left 0.5s ease;
+                "></div>
+                <span style="
+                  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+                  font-size: 16px;
+                  font-weight: 500;
+                  color: #ffffff;
+                  letter-spacing: 0.02em;
+                  position: relative;
+                  z-index: 1;
+                ">Register Now</span>
+              </div>
+            </a>
+          </div>
+        </mj-raw>
+
+        <mj-text align="center" font-family="-apple-system, BlinkMacSystemFont" font-size="13px" color="rgba(255,255,255,0.4)" padding-top="25px">
+          Limited to 500 participants
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Stats -->
+    <mj-section padding="60px 20px 40px 20px">
+      <mj-column width="33.333%">
+        <mj-text align="center" font-family="-apple-system, BlinkMacSystemFont" font-size="36px" font-weight="100" color="rgba(255,255,255,0.9)" padding="0">
+          500+
+        </mj-text>
+        <mj-text align="center" font-family="-apple-system, BlinkMacSystemFont" font-size="12px" font-weight="400" color="rgba(255,255,255,0.4)" padding="5px 0 0 0">
+          BUILDERS
+        </mj-text>
+      </mj-column>
+      <mj-column width="33.333%">
+        <mj-text align="center" font-family="-apple-system, BlinkMacSystemFont" font-size="36px" font-weight="100" color="rgba(255,255,255,0.9)" padding="0">
+          48H
+        </mj-text>
+        <mj-text align="center" font-family="-apple-system, BlinkMacSystemFont" font-size="12px" font-weight="400" color="rgba(255,255,255,0.4)" padding="5px 0 0 0">
+          DURATION
+        </mj-text>
+      </mj-column>
+      <mj-column width="33.333%">
+        <mj-text align="center" font-family="-apple-system, BlinkMacSystemFont" font-size="36px" font-weight="100" color="rgba(255,255,255,0.9)" padding="0">
+          20+
+        </mj-text>
+        <mj-text align="center" font-family="-apple-system, BlinkMacSystemFont" font-size="12px" font-weight="400" color="rgba(255,255,255,0.4)" padding="5px 0 0 0">
+          MENTORS
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section padding="40px 20px 60px 20px">
+      <mj-column>
+        <mj-raw>
+          <div style="border-top: 1px solid rgba(255,255,255,0.08); padding-top: 40px; text-align: center;">
+            <p style="font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif; font-size: 12px; color: rgba(255,255,255,0.3); margin: 0 0 15px 0;">
+              © 2026 HackTheEast. Hong Kong.
+            </p>
+            <p style="font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif; font-size: 11px; color: rgba(255,255,255,0.25); margin: 0;">
+              <a href="{{UNSUBSCRIBE_URL}}" style="color: rgba(255,255,255,0.4); text-decoration: none;">Unsubscribe</a>
+              <span style="margin: 0 12px; color: rgba(255,255,255,0.2);">•</span>
+              <a href="{{PREFERENCES_URL}}" style="color: rgba(255,255,255,0.4); text-decoration: none;">Preferences</a>
+              <span style="margin: 0 12px; color: rgba(255,255,255,0.2);">•</span>
+              <a href="https://hacktheeast.com" style="color: rgba(255,255,255,0.4); text-decoration: none;">Website</a>
+            </p>
+          </div>
+        </mj-raw>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
